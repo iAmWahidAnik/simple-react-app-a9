@@ -12,7 +12,7 @@ import JobCard from './JobCard';
 const Home = () => {
     // show data state
     const [showData, setShowData] = useState(false);
-    
+
     const datas = useLoaderData();
     let newData ;
     
@@ -28,7 +28,7 @@ const Home = () => {
             <div className='flex flex-col-reverse md:flex-row justify-between items-center gap-14'>
                 {/* text area  */}
                 <div className=''>
-                    <h1 className='text-7xl text-gray-900 font-bold'>One Step <br /> Closer To Your <br /><span className='bg-clip-text text-transparent bg-gradient-to-l from-violet-400 to-indigo-400'>Dream Job</span></h1>
+                    <h1 className='text-7xl text-gray-900 font-bold leading-tight'>One Step <br /> Closer To Your <br /><span className='bg-clip-text text-transparent bg-gradient-to-l from-violet-400 to-indigo-400'>Dream Job</span></h1>
                     <p className='text-xl text-gray-700 my-5'>Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                     <button className='py-4 px-6 rounded-lg text-xl font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2'>Get Started</button>
                 </div>
