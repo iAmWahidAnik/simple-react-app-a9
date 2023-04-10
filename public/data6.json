@@ -1,0 +1,18 @@
+{
+  "jobId": 6,
+  "companyLogo": "https://example.com/company-logo.png",
+  "jobTitle": "Customer Service Representative",
+  "companyName": "Service Solutions",
+  "timingType": "Onsite",
+  "location": "Miami, FL",
+  "jobType": "Part-Time",
+  "salaryRange": "$25,000 - $30,000",
+  "jobDescription": "We are seeking a motivated sales representative to join our team...",
+  "jobResponsibility": "Develop and maintain relationships with clients...",
+  "educationalRequirements": "Bachelor's degree in business or related field...",
+  "experiences": "2+ years of experience in sales...",
+  "contactInformation": {
+    "phone": "555-1234",
+    "email": "jobs@example.com"
+  }
+}

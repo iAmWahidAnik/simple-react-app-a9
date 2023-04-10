@@ -1,0 +1,18 @@
+{
+  "id": 1,
+  "companyLogo": "https://example.com/company-logo.png",
+  "jobTitle": "Software Engineer",
+  "companyName": "Acme Inc.",
+  "jobType": "Full-Time",
+  "location": "San Francisco, CA",
+  "timingType": "Remote",
+  "salaryRange": "$100,000 - $150,000",
+  "jobDescription": "We are looking for an experienced software engineer to join our team...",
+  "jobResponsibility": "Develop and maintain high-quality software...",
+  "educationalRequirements": "Bachelor's degree in computer science or related field...",
+  "experiences": "5+ years of experience in software development...",
+  "contactInformation": {
+    "phone": "555-1234",
+    "email": "jobs@example.com"
+  }
+}

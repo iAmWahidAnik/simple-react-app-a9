@@ -1,7 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const JobCard = ({data}) => {
-    const {logo, jobTitle, companyName, jobType, timingType, location, salaryRange} = data;
+    const {jobId, logo, jobTitle, companyName, jobType, timingType, location, salaryRange} = data;
     return (
         <div className='border rounded p-10'>
             <img src={logo} alt="" />
@@ -15,7 +16,9 @@ const JobCard = ({data}) => {
                 <p className='text-xl text-gray-500 font-semibold'>{location}</p>
                 <p className='text-xl text-gray-500 font-semibold'>{salaryRange}</p>
             </div>
+            <Link to={`/job-details/${jobId}`}>
             <button className='py-2 px-3 rounded-lg font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2'>View Details</button>
+            </Link>
         </div>
     );
 };

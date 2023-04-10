@@ -1,0 +1,18 @@
+{
+  "jobId": 4,
+  "companyLogo": "https://example.com/company-logo.png",
+  "jobTitle": "Graphic Designer",
+  "companyName": "Design Co.",
+  "timingType": "Remote",
+  "location": "Seattle, WA",
+  "jobType": "Full-Time",
+  "salaryRange": "$70,000 - $90,000",
+  "jobDescription": "We are seeking a skilled data analyst to join our team...",
+  "jobResponsibility": "Analyze and interpret data to inform business decisions...",
+  "educationalRequirements": "Bachelor's degree in statistics or related field...",
+  "experiences": "3+ years of experience in data analysis...",
+  "contactInformation": {
+    "phone": "555-3456",
+    "email": "jobs@example.com"
+  }
+}

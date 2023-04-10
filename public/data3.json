@@ -1,0 +1,18 @@
+{
+  "jobId": 3, 
+  "companyLogo": "https://example.com/company-logo.png",
+  "jobTitle": "Sales Representative",
+  "companyName": "ABC Company",
+  "timingType": "Onsite",
+  "location": "Los Angeles, CA",
+  "jobType": "Full-Time",
+  "salaryRange": "$60,000 - $80,000",
+  "jobDescription": "We are seeking a skilled graphic designer to work on a part-time basis...",
+  "jobResponsibility": "Design graphics for websites, social media, and other marketing materials...",
+  "educationalRequirements": "Bachelor's degree in graphic design or related field...",
+  "experiences": "3+ years of experience in graphic design...",
+  "contactInformation": {
+    "phone": "555-9012",
+    "email": "jobs@example.com"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "jobId": 2,
+  "companyLogo": "https://example.com/company-logo.png",
+  "jobTitle": "Marketing Manager",
+  "companyName": "Globex Corporation",
+  "timingType": "Onsite",
+  "location": "New York, NY",
+  "jobType": "Part-Time",
+  "salaryRange": "$75,000 - $90,000",
+  "jobDescription": "We are seeking a talented and motivated marketing manager to join our team...",
+  "jobResponsibility": "Develop and implement marketing strategies...",
+  "educationalRequirements": "Bachelor's degree in marketing or related field...",
+  "experiences": "7+ years of experience in marketing...",
+  "contactInformation": {
+    "phone": "555-5678",
+    "email": "jobs@example.com"
+  }
+}

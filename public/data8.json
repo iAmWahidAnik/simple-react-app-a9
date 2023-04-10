@@ -1,0 +1,18 @@
+{
+  "jobId": 8,
+  "companyLogo": "https://example.com/company-logo.png",
+  "jobTitle": "Data Analyst",
+  "companyName": "Tech Company",
+  "timingType": "Remote",
+  "location": "San Diego, CA",
+  "jobType": "Full-Time",
+  "salaryRange": "$80,000 - $100,000",
+  "jobDescription": "We are seeking a friendly and efficient customer service representative to join our team...",
+  "jobResponsibility": "Respond to customer inquiries and resolve issues...",
+  "educationalRequirements": "High school diploma or equivalent...",
+  "experiences": "1+ years of experience in customer service...",
+  "contactInformation": {
+    "phone": "555-5678",
+    "email": "jobs@example.com"
+  }
+}
