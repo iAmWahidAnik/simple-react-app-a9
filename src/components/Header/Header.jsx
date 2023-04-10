@@ -14,7 +14,7 @@ const Header = () => {
                 <Link>  
                     <a className='hover:text-violet-500 font-semibold transition-all duration-300' href="">Applied Jobs</a>
                 </Link>
-                <Link>  
+                <Link to='/blog'>  
                     <a className='hover:text-violet-500 font-semibold transition-all duration-300' href="">Blog</a>
                 </Link>
             </div>
