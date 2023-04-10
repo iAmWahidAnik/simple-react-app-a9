@@ -18,7 +18,7 @@ const Statistics = () => {
     return (
         <div className='text-center max-w-2xl mx-auto'>
             <h1>This is statistics page!!!!</h1>
-            <div className='content-center inline-block mx-auto'>
+            <div className='content-center place-items-center'>
                 <PieChart width={800} height={400} >
                     <Pie
                         data={data}
