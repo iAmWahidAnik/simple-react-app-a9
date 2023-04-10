@@ -1,10 +1,15 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import { addToDb } from '../../Utilities/Utils';
 
 const JobDetails = () => {
     const data = useLoaderData();
-    const { companyLogo, jobTitle, companyName, jobType, location, timingType, salaryRange, jobDescription, jobResponsibility, educationalRequirements, experiences, contactInformation } = data;
+    const { jobId, companyLogo, jobTitle, companyName, jobType, location, timingType, salaryRange, jobDescription, jobResponsibility, educationalRequirements, experiences, contactInformation } = data;
     // const { phone, email } = contactInformation;
+    const applyJob = id => {
+        console.log(id)
+        addToDb(id)
+    }
     return (
         <div>
             {/* banner area  */}
@@ -72,7 +77,7 @@ const JobDetails = () => {
                             </div>
                         </div>
                     </div>
-                    <button className='w-full py-5 bg-indigo-300 rounded-lg text-xl font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2'>Apply Now</button>
+                    <button onClick={() => applyJob(jobId)} className='w-full py-5 bg-indigo-300 rounded-lg text-xl font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2'>Apply Now</button>
                 </div>
             </div>
         </div>
