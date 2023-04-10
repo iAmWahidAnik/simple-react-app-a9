@@ -1,13 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import image from '../../assets/All Images/P3OLGJ1 copy 1.png'
 import calculator from '../../assets/Icons/accounts 1.png'
 import light from '../../assets/Icons/business 1.png'
 import socialMedia from '../../assets/Icons/social-media 1.png'
 import chip from '../../assets/Icons/chip 1.png'
+import { useLoaderData } from 'react-router-dom';
+import JobCard from './JobCard';
 
 
 
 const Home = () => {
+    // show data state
+    const [showData, setShowData] = useState(false);
+    
+    const datas = useLoaderData();
+    let newData ;
+    
+    if(showData){
+        newData = datas;
+    }else{
+        newData = datas.slice(0,4);
+    }
+    
     return (
         <div>
             {/* Home Banner  */}
@@ -26,7 +40,7 @@ const Home = () => {
             {/* category section  */}
             <div className='my-32'>
                 <div className='text-center'>
-                    <h1 className='text-5xl font-bold'>Job Category List</h1>
+                    <h1 className='text-5xl font-bold text-gray-900'>Job Category List</h1>
                     <p className='text-gray-600 my-8'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </div>
                 <div className='flex flex-col md:flex-row justify-between gap-6 my-5'>
@@ -71,26 +85,24 @@ const Home = () => {
             {/* Featured Section  */}
             <div>
                 <div className='text-center'>
-                    <h1 className='text-5xl font-bold'>Featured Jobs</h1>
+                    <h1 className='text-5xl font-bold text-gray-900'>Featured Jobs</h1>
                     <p className='text-gray-600 my-8'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </div>
-                <div>
-                    <div>
-                        <img src="" alt="" />
-                        <h3>Software Engineer</h3>
-                        <p>Tesla</p>
-                        <div className='space-x-3'>
-                            <button className='px-2 py-1 rounded border border-indigo-500 font-semibold text-indigo-500'>Onsite</button>
-                            <button className='px-2 py-1 rounded border border-indigo-500 font-semibold text-indigo-500'>Full Time</button>
-                        </div>
-                        <div>
-                            <p>Dhaka, Bangladesh</p>
-                            <p>Salary : 100K - 150K</p>
-                        </div>
-                        <button className='py-2 px-3 rounded-lg text-xs font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2'>View Details</button>
-                    </div>
+                <div className='grid grid-cols-1 md:grid-cols-2 gap-12'>
+                    {
+                        
+                        newData.map(data => <JobCard key={data.jobId} data={data}></JobCard>)
+                    }
                 </div>
-                <button className='py-4 px-6 rounded-lg text-xl font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2'>See All Jobs</button>
+                <div className='mt-10 text-center'>
+                {/* <button onClick={() => setShowData(true)} className='py-4 px-6 rounded-lg text-xl font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 '>Show All</button>
+
+                <button onClick={() => setShowData(false)} className='py-4 px-6 rounded-lg text-xl font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 '>Show Less</button> */}
+                {
+                    showData ? <button onClick={() => setShowData(false)} className='py-4 px-6 rounded-lg text-xl font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 '>Show Less</button> : 
+                    <button onClick={() => setShowData(true)} className='py-4 px-6 rounded-lg text-xl font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 '>Show All</button>
+                }
+                </div>
             </div>
         </div>
     );
