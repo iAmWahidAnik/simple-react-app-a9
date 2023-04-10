@@ -68,6 +68,30 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+            {/* Featured Section  */}
+            <div>
+                <div className='text-center'>
+                    <h1 className='text-5xl font-bold'>Featured Jobs</h1>
+                    <p className='text-gray-600 my-8'>Explore thousands of job opportunities with all the information you need. Its your future</p>
+                </div>
+                <div>
+                    <div>
+                        <img src="" alt="" />
+                        <h3>Software Engineer</h3>
+                        <p>Tesla</p>
+                        <div className='space-x-3'>
+                            <button className='px-2 py-1 rounded border border-indigo-500 font-semibold text-indigo-500'>Onsite</button>
+                            <button className='px-2 py-1 rounded border border-indigo-500 font-semibold text-indigo-500'>Full Time</button>
+                        </div>
+                        <div>
+                            <p>Dhaka, Bangladesh</p>
+                            <p>Salary : 100K - 150K</p>
+                        </div>
+                        <button className='py-2 px-3 rounded-lg text-xs font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2'>View Details</button>
+                    </div>
+                </div>
+                <button className='py-4 px-6 rounded-lg text-xl font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2'>See All Jobs</button>
+            </div>
         </div>
     );
 };
