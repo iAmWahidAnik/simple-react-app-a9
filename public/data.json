@@ -1,0 +1,75 @@
+[
+    {
+      "jobId": 1,
+      "jobTitle": "Software Engineer",
+      "companyName": "Acme Inc.",
+      "jobType": "Full-Time",
+      "timingType": "Remote",
+      "location": "San Francisco, CA",
+      "salaryRange": "$100,000 - $150,000"
+    },
+    {
+      "jobId": 2,
+      "jobTitle": "Marketing Manager",
+      "companyName": "Globex Corporation",
+      "jobType": "Part-Time",
+      "timingType": "Onsite",
+      "location": "New York, NY",
+      "salaryRange": "$75,000 - $90,000"
+    },
+    {
+      "jobId": 3,  
+      "jobTitle": "Sales Representative",
+      "companyName": "ABC Company",
+      "jobType": "Full-Time",
+      "timingType": "Onsite",
+      "location": "Los Angeles, CA",
+      "salaryRange": "$60,000 - $80,000"
+    },
+    {
+      "jobId": 4,
+      "jobTitle": "Graphic Designer",
+      "companyName": "Design Co.",
+      "jobType": "Full-Time",
+      "timingType": "Remote",
+      "location": "Seattle, WA",
+      "salaryRange": "$70,000 - $90,000"
+    },
+    {
+      "jobId": 5,   
+      "jobTitle": "Accountant",
+      "companyName": "Finance Firm",
+      "jobType": "Full-Time",
+      "timingType": "Onsite",
+      "location": "Chicago, IL",
+      "salaryRange": "$80,000 - $100,000"
+    },
+    {
+      "jobId": 6,
+      "jobTitle": "Customer Service Representative",
+      "companyName": "Service Solutions",
+      "jobType": "Part-Time",
+      "timingType": "Onsite",
+      "location": "Miami, FL",
+      "salaryRange": "$25,000 - $30,000"
+    },
+    {
+      "jobId": 7,
+      "jobTitle": "Human Resources Manager",
+      "companyName": "Corporate Inc.",
+      "jobType": "Full-Time",
+      "timingType": "Onsite",
+      "location": "Dallas, TX",
+      "salaryRange": "$90,000 - $120,000"
+    },
+    {
+      "jobId": 8,
+      "jobTitle": "Data Analyst",
+      "companyName": "Tech Company",
+      "jobType": "Full-Time",
+      "timingType": "Remote",
+      "location": "San Diego, CA",
+      "salaryRange": "$80,000 - $100,000"
+    }
+  ]
+  
