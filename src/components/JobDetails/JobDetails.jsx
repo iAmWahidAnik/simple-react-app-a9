@@ -18,7 +18,7 @@ const JobDetails = () => {
             </div>
             {/* details area  */}
             {/* <div className='flex mx-auto gap-5'> */}
-            <div className='grid grid-cols-3 w-4/5 mx-auto gap-5 my-20'>
+            <div className='grid grid-cols-1 md:grid-cols-3 w-4/5 mx-auto gap-5 my-20'>
                 {/* text details  */}
                 <div className='col-span-2'>
                     <p><b className='text-gray-800'>Job Description : </b><span className='text-gray-600'>{jobDescription} </span></p>
