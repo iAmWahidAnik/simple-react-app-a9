@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { getDataFromDb } from '../../Utilities/Utils';
 import { useLoaderData } from 'react-router-dom';
 import AppliedCard from './AppliedCard';
-import bg from '../../assets/All Images/Vector.png'
 
 const AppliedJobs = () => {
     const [whichData, setWhichData] = useState('default')
@@ -45,7 +44,7 @@ const AppliedJobs = () => {
             <div className='text-center py-28 relative bg-indigo-50 rounded-lg'>
                 <h1 className='text-3xl font-bold text-gray-900'>Applied Jobs</h1>
             <div className='absolute bottom-0 left-0'>
-                <img src={bg} alt="" />
+                <img src='https://i.ibb.co/vXKxYx8/Vector.png' alt="" />
             </div>
             </div>
             <div className='text-right w-4/6 mx-auto my-16'>

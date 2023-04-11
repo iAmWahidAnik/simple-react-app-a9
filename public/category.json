@@ -1,25 +1,25 @@
 [
     {
         "id": 1,
-        "categoryLogo": "../src/assets/Icons/accounts 1.png",
+        "categoryLogo": "https://i.ibb.co/ryHCmxg/accounts-1.png",
         "categoryName": "Business and Finance",
         "jobsAvailable": 300   
     },
     {
         "id": 2,
-        "categoryLogo": "../src/assets/Icons/business 1.png",
+        "categoryLogo": "https://i.ibb.co/FHxfM1X/business-1.png",
         "categoryName": "Arts & Design",
         "jobsAvailable": 100  
     },
     {
         "id": 3,
-        "categoryLogo": "../src/assets/Icons/social-media 1.png",
+        "categoryLogo": "https://i.ibb.co/mCVtx3Q/social-media-1.png",
         "categoryName": "marketing and sales",
         "jobsAvailable": 150  
     },
     {
         "id": 4,
-        "categoryLogo": "../src/assets/Icons/chip 1.png",
+        "categoryLogo": "https://i.ibb.co/rt0XwBQ/chip-1.png",
         "categoryName": "Information Technology",
         "jobsAvailable": 224  
     }

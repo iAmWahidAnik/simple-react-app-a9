@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import image from '../../assets/All Images/P3OLGJ1 copy 1.png'
 import { useLoaderData } from 'react-router-dom';
 import JobCard from './JobCard';
 import JobCategories from './JobCategories';
@@ -38,7 +37,7 @@ const Home = () => {
                 </div>
                 {/* image area  */}
                 <div className=''>
-                    <img className='' src={image} alt="image" />
+                    <img className='' src='https://i.ibb.co/Y0zqsSG/P3-OLGJ1-copy-1.png' alt="image" />
                 </div>
             </div>
             {/* category section  */}

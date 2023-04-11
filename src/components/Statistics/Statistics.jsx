@@ -1,7 +1,6 @@
 // import React from 'react';
 import React, { PureComponent } from 'react';
 import { Tooltip,Cell, PieChart, Pie, Legend } from 'recharts';
-import bg from '../../assets/All Images/Vector.png'
 
 
 
@@ -24,7 +23,7 @@ const Statistics = () => {
             <div className='text-center py-28 relative bg-indigo-50 rounded-lg'>
                 <h1 className='text-3xl font-bold text-gray-900'>Statistics</h1>
             <div className='absolute bottom-0 left-0'>
-                <img src={bg} alt="" />
+                <img src='https://i.ibb.co/vXKxYx8/Vector.png' alt="" />
             </div>
             </div>
             <div className=''>
