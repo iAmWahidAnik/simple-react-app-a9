@@ -1,16 +1,16 @@
 {
   "jobId": 2,
-  "companyLogo": "https://example.com/company-logo.png",
+  "companyLogo": "../src/assets/Logo/netflix-4 1.png",
   "jobTitle": "Marketing Manager",
-  "companyName": "Globex Corporation",
+  "companyName": "Netflix, Inc.",
   "timingType": "Onsite",
   "location": "New York, NY",
   "jobType": "Part-Time",
   "salaryRange": "$75,000 - $90,000",
-  "jobDescription": "We are seeking a talented and motivated marketing manager to join our team...",
-  "jobResponsibility": "Develop and implement marketing strategies...",
-  "educationalRequirements": "Bachelor's degree in marketing or related field...",
-  "experiences": "7+ years of experience in marketing...",
+  "jobDescription": "While the marketing department looks to Marketing Managers for guidance and direction, executives count on them for profitability and results. They generally work in corporate environments as part of a larger marketing, creative, communications or digital team. As part of an organization, they play a critical role in aligning creative direction with the company’s strategic goals.",
+  "jobResponsibility": "Intimate understanding of traditional and emerging marketing channels. Excellent communication skills. Ability to think creatively and innovatively. Budget-management skills and proficiency. Professional judgment and discretion that comes from years of experience in the field. Analytical skills to forecast and identify trends and challenges. Familiarity with the latest trends, technologies and methodologies in graphic design, web design, production, etc.",
+  "educationalRequirements": "Come from a variety of academic backgrounds, including marketing, communication, business and other fields. Bachelor’s degree. Some companies require their marketing managers to have a master’s degree. 7 years of experience",
+  "experiences": "7+ years of experience in marketing",
   "contactInformation": {
     "phone": "555-5678",
     "email": "jobs@example.com"

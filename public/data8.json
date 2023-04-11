@@ -1,16 +1,16 @@
 {
   "jobId": 8,
-  "companyLogo": "https://example.com/company-logo.png",
+  "companyLogo": "../src/assets/All Images/Group 10021.png",
   "jobTitle": "Data Analyst",
-  "companyName": "Tech Company",
+  "companyName": "airBnB",
   "timingType": "Remote",
   "location": "San Diego, CA",
   "jobType": "Full-Time",
   "salaryRange": "$80,000 - $100,000",
-  "jobDescription": "We are seeking a friendly and efficient customer service representative to join our team...",
-  "jobResponsibility": "Respond to customer inquiries and resolve issues...",
-  "educationalRequirements": "High school diploma or equivalent...",
-  "experiences": "1+ years of experience in customer service...",
+  "jobDescription": "We are looking for a passionate certified Data Analyst. The successful candidate will turn data into information, information into insight and insight into business decisions.",
+  "jobResponsibility": "Interpret data, analyze results using statistical techniques and provide ongoing reports. Develop and implement databases, data collection systems, data analytics and other strategies that optimize statistical efficiency and quality. Acquire data from primary or secondary data sources and maintain databases/data systems. Identify, analyze, and interpret trends or patterns in complex data sets. Filter and “clean” data by reviewing computer reports, printouts, and performance indicators to locate and correct code problems",
+  "educationalRequirements": "High school diploma or equivalent",
+  "experiences": "1+ years of experience in Data Analyst",
   "contactInformation": {
     "phone": "555-5678",
     "email": "jobs@example.com"

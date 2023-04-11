@@ -1,11 +1,8 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import image from '../../assets/All Images/P3OLGJ1 copy 1.png'
-import calculator from '../../assets/Icons/accounts 1.png'
-import light from '../../assets/Icons/business 1.png'
-import socialMedia from '../../assets/Icons/social-media 1.png'
-import chip from '../../assets/Icons/chip 1.png'
 import { useLoaderData } from 'react-router-dom';
 import JobCard from './JobCard';
+import JobCategories from './JobCategories';
 
 
 
@@ -21,6 +18,13 @@ const Home = () => {
     }else{
         newData = datas.slice(0,4);
     }
+
+    const [categories, setCategories] = useState([]);
+    useEffect(() => {
+        fetch('category.json')
+        .then(res => res.json())
+        .then(data => setCategories(data))
+    },[]);
     
     return (
         <div>
@@ -43,43 +47,10 @@ const Home = () => {
                     <h1 className='text-5xl font-bold text-gray-900'>Job Category List</h1>
                     <p className='text-gray-600 my-8'>Explore thousands of job opportunities with all the information you need. Its your future</p>
                 </div>
-                <div className='flex flex-col md:flex-row justify-between gap-6 my-5'>
-                    <div className='p-10 bg-gray-100 rounded'>
-                        <div className='p-7 bg-gray-200 inline-block rounded'>
-                            <img src={calculator} alt="" />
-                        </div>
-                        <div className='mt-8'>
-                            <h3 className='font-bold text-xl text-gray-700'>Account & Finance</h3>
-                            <p className='text-gray-600 mt-2'>300 Jobs Available</p>
-                        </div>
-                    </div>
-                    <div className='p-10 bg-gray-100 rounded'>
-                        <div className='p-7 bg-gray-200 inline-block rounded'>
-                            <img src={light} alt="" />
-                        </div>
-                        <div className='mt-8'>
-                            <h3 className='font-bold text-xl text-gray-700'>Creative Design</h3>
-                            <p className='text-gray-600 mt-2'>100+ Jobs Available</p>
-                        </div>
-                    </div>
-                    <div className='p-10 bg-gray-100 rounded'>
-                        <div className='p-7 bg-gray-200 inline-block rounded'>
-                            <img src={socialMedia} alt="" />
-                        </div>
-                        <div className='mt-8'>
-                            <h3 className='font-bold text-xl text-gray-700'>Marketing & Sales</h3>
-                            <p className='text-gray-600 mt-2'>150 Jobs Available</p>
-                        </div>
-                    </div>
-                    <div className='p-10 bg-gray-100 rounded'>
-                        <div className='p-7 bg-gray-200 inline-block rounded'>
-                            <img src={chip} alt="" />
-                        </div>
-                        <div className='mt-8'>
-                            <h3 className='font-bold text-xl text-gray-700'>Engineering Job</h3>
-                            <p className='text-gray-600 mt-2'>224 Jobs Available</p>
-                        </div>
-                    </div>
+                <div className='grid grid-cols-1 md:grid-cols-4 gap-6 my-5'>
+                    {
+                        categories.map(category => <JobCategories key={category.id} category={category}></JobCategories>)
+                    }
                 </div>
             </div>
             {/* Featured Section  */}
@@ -95,9 +66,6 @@ const Home = () => {
                     }
                 </div>
                 <div className='mt-10 text-center'>
-                {/* <button onClick={() => setShowData(true)} className='py-4 px-6 rounded-lg text-xl font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 '>Show All</button>
-
-                <button onClick={() => setShowData(false)} className='py-4 px-6 rounded-lg text-xl font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 '>Show Less</button> */}
                 {
                     showData ? <button onClick={() => setShowData(false)} className='py-4 px-6 rounded-lg text-xl font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 '>Show Less</button> : 
                     <button onClick={() => setShowData(true)} className='py-4 px-6 rounded-lg text-xl font-semibold text-white bg-gradient-to-l from-violet-400 to-indigo-400 hover:shadow-xl transition-all duration-300 hover:-translate-y-2 '>Show All</button>

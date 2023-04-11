@@ -1,16 +1,16 @@
 {
   "jobId": 3, 
-  "companyLogo": "https://example.com/company-logo.png",
+  "companyLogo": "../src/assets/Logo/tesla-9 1.png",
   "jobTitle": "Sales Representative",
-  "companyName": "ABC Company",
+  "companyName": "Tesla Inc.",
   "timingType": "Onsite",
   "location": "Los Angeles, CA",
   "jobType": "Full-Time",
   "salaryRange": "$60,000 - $80,000",
-  "jobDescription": "We are seeking a skilled graphic designer to work on a part-time basis...",
-  "jobResponsibility": "Design graphics for websites, social media, and other marketing materials...",
-  "educationalRequirements": "Bachelor's degree in graphic design or related field...",
-  "experiences": "3+ years of experience in graphic design...",
+  "jobDescription": "A successful Sales Representative should interact with others in a friendly and approachable manner, helping maintain positive relations between customers and suppliers. They need to have good time management skills to stay on task when they should be.",
+  "jobResponsibility": "Proven work experience as a Sales Representative. Excellent knowledge of MS Office. Familiarity with BRM and CRM practices along with ability to build productive business professional relationships. Highly motivated and target driven with a proven track record in sales. Excellent selling, negotiation and communication skills. Prioritizing, time management and organizational skills. Ability to create and deliver presentations tailored to the audience needs. Relationship management skills and openness to feedback. Bachelors degree in business or a related field",
+  "educationalRequirements": "Bachelor's degree in graphic design or related field",
+  "experiences": "3+ years of experience in relevant field",
   "contactInformation": {
     "phone": "555-9012",
     "email": "jobs@example.com"

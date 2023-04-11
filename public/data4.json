@@ -1,16 +1,16 @@
 {
   "jobId": 4,
-  "companyLogo": "https://example.com/company-logo.png",
+  "companyLogo": "../src/assets/Logo/tesla-9 1.pn",
   "jobTitle": "Graphic Designer",
-  "companyName": "Design Co.",
+  "companyName": "Tesla, Inc.",
   "timingType": "Remote",
   "location": "Seattle, WA",
   "jobType": "Full-Time",
   "salaryRange": "$70,000 - $90,000",
-  "jobDescription": "We are seeking a skilled data analyst to join our team...",
-  "jobResponsibility": "Analyze and interpret data to inform business decisions...",
-  "educationalRequirements": "Bachelor's degree in statistics or related field...",
-  "experiences": "3+ years of experience in data analysis...",
+  "jobDescription": "The Graphic Designer job description includes the entire process of defining requirements, visualizing and creating graphics including illustrations, logos, layouts and photos. You’ll be the one to shape the visual aspects of websites, books, magazines, product packaging, exhibitions and more.",
+  "jobResponsibility": "Proven graphic designing experience. A strong portfolio of illustrations or other graphics. Familiarity with design software and technologies (such as InDesign, Illustrator, Dreamweaver, Photoshop). A keen eye for aesthetics and details. Excellent communication skills. Ability to work methodically and meet deadlines. Degree in Design, Fine Arts or related field is a plus",
+  "educationalRequirements": "Bachelor's degree in statistics or related field",
+  "experiences": "3+ years of experience in Graphics Design",
   "contactInformation": {
     "phone": "555-3456",
     "email": "jobs@example.com"

@@ -1,16 +1,16 @@
 {
   "jobId": 7,
-  "companyLogo": "https://example.com/company-logo.png",
+  "companyLogo": "../src/assets/All Images/Group 10021.png",
   "jobTitle": "Human Resources Manager",
-  "companyName": "Corporate Inc.",
+  "companyName": "airBnB",
   "timingType": "Onsite",
   "location": "Dallas, TX",
   "jobType": "Full-Time",
   "salaryRange": "$90,000 - $120,000",
-  "jobDescription": "We are seeking a friendly and efficient customer service representative to join our team...",
-  "jobResponsibility": "Respond to customer inquiries and resolve issues...",
+  "jobDescription": "The job of HR Manager is important to business success. People are our most important asset and you’ll be the one to ensure we have a happy and productive workplace where everyone works to realize our established mission and objectives. Promoting corporate values and shaping a positive culture is a vital aspect of a complete HR Manager job description and specification.",
+  "jobResponsibility": "Proven working experience as HR Manager or other HR Executive. People oriented and results driven. Demonstrable experience with Human Resources metrics. Knowledge of HR systems and databases. Ability to architect strategy along with leadership skills. Excellent active listening, negotiation and presentation skills. Competence to build and effectively manage interpersonal relationships at all levels of the company. In-depth knowledge of labor law and HR best practices. Degree in Human Resources or related field",
   "educationalRequirements": "High school diploma or equivalent...",
-  "experiences": "1+ years of experience in customer service...",
+  "experiences": "1+ years of experience in Relevant Field",
   "contactInformation": {
     "phone": "555-5678",
     "email": "jobs@example.com"

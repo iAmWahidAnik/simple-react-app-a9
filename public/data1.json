@@ -1,16 +1,16 @@
 {
   "jobId": 1,
-  "companyLogo": "https://example.com/company-logo.png",
+  "companyLogo": "../src/assets/Logo/google-1-1 1.png",
   "jobTitle": "Software Engineer",
-  "companyName": "Acme Inc.",
+  "companyName": "Google LLC.",
   "jobType": "Full-Time",
   "location": "San Francisco, CA",
   "timingType": "Remote",
   "salaryRange": "$100,000 - $150,000",
-  "jobDescription": "We are looking for an experienced software engineer to join our team...",
-  "jobResponsibility": "Develop and maintain high-quality software...",
-  "educationalRequirements": "Bachelor's degree in computer science or related field...",
-  "experiences": "5+ years of experience in software development...",
+  "jobDescription": "Software Engineer responsibilities include gathering user requirements, defining system functionality and writing code in various languages, like Java, Ruby on Rails or .NET programming languages (e.g. C++ or JScript.NET.) Our ideal candidates are familiar with the software development life cycle (SDLC) from preliminary system analysis to tests and deployment.",
+  "jobResponsibility": "Execute full software development life cycle (SDLC). Develop flowcharts, layouts and documentation to identify requirements and solutions. Write well-designed, testable code. Produce specifications and determine operational feasibility. Integrate software components into a fully functional software system. Develop software verification plans and quality assurance procedures. Document and maintain software functionality. Troubleshoot, debug and upgrade existing systems. Deploy programs and evaluate user feedback. Comply with project plans and industry standards",
+  "educationalRequirements": "Bachelor's degree in computer science or related field.",
+  "experiences": "5+ years of experience in software development.",
   "contactInformation": {
     "phone": "555-1234",
     "email": "jobs@example.com"

@@ -1,6 +1,9 @@
 // import React from 'react';
 import React, { PureComponent } from 'react';
-import { PieChart, Pie, Sector, Cell, ResponsiveContainer, Tooltip } from 'recharts';
+import { Tooltip,Cell, PieChart, Pie, Legend } from 'recharts';
+import bg from '../../assets/All Images/Vector.png'
+
+
 
 
 const Statistics = () => {
@@ -15,12 +18,16 @@ const Statistics = () => {
         { assignment: 6, marks: 60 },
     ];
     const COLORS = ['#DE3163', '#FF7F50', '#808080', '#808000', '#008080', '#6495ED', '#9FE2BF', '#6495ED', '#FF8042'];
+    
     return (
-        <div className='text-center max-w-2xl mx-auto'>
-            <div className='text-center my-28'>
-                <h1 className='text-3xl font-bold text-gray-900'>statistics</h1>
+        <div className='text-center mx-auto'>
+            <div className='text-center py-28 relative bg-indigo-50 rounded-lg'>
+                <h1 className='text-3xl font-bold text-gray-900'>Statistics</h1>
+            <div className='absolute bottom-0 left-0'>
+                <img src={bg} alt="" />
             </div>
-            <div className='content-center place-items-center'>
+            </div>
+            <div className=''>
                 <PieChart width={800} height={400} >
                     <Pie
                         data={data}

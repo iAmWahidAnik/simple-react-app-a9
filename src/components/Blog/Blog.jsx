@@ -1,10 +1,14 @@
 import React from 'react';
+import bg from '../../assets/All Images/Vector.png'
 
 const Blog = () => {
     return (
         <div>
-            <div className='text-center my-28 '>
+            <div className='text-center py-28 relative bg-indigo-50 rounded-lg'>
                 <h1 className='text-3xl font-bold text-gray-900'>Blog</h1>
+                <div className='absolute bottom-0 left-0'>
+                    <img src={bg} alt="" />
+                </div>
             </div>
             <div className='flex flex-col my-12 max-w-4xl mx-auto text-center gap-6'>
                 <div className='border-y-2 border-gray-100'>

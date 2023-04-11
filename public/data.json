@@ -2,7 +2,7 @@
     {
       "jobId": 1,
       "jobTitle": "Software Engineer",
-      "companyName": "Acme Inc.",
+      "companyName": "Google LLC.",
       "logo": "../src/assets/Logo/google-1-1 1.png",
       "jobType": "Full-Time",
       "timingType": "Remote",
@@ -12,7 +12,7 @@
     {
       "jobId": 2,
       "jobTitle": "Marketing Manager",
-      "companyName": "Globex Corporation",
+      "companyName": "Netflix, Inc.",
       "logo": "../src/assets/Logo/netflix-4 1.png",
       "jobType": "Part-Time",
       "timingType": "Onsite",
@@ -22,7 +22,7 @@
     {
       "jobId": 3,  
       "jobTitle": "Sales Representative",
-      "companyName": "ABC Company",
+      "companyName": "Tesla Inc.",
       "logo": "../src/assets/Logo/tesla-9 1.png",
       "jobType": "Full-Time",
       "timingType": "Onsite",
@@ -32,7 +32,7 @@
     {
       "jobId": 4,
       "jobTitle": "Graphic Designer",
-      "companyName": "Design Co.",
+      "companyName": "Tesla, Inc.",
       "logo": "../src/assets/Logo/tesla-9 1.png",
       "jobType": "Full-Time",
       "timingType": "Remote",
@@ -42,8 +42,8 @@
     {
       "jobId": 5,   
       "jobTitle": "Accountant",
-      "companyName": "Finance Firm",
-      "logo": "../src/assets/Logo/tesla-9 1.png",
+      "companyName": "Google LLC.",
+      "logo": "../src/assets/Logo/google-1-1 1.png",
       "jobType": "Full-Time",
       "timingType": "Onsite",
       "location": "Chicago, IL",
@@ -52,8 +52,8 @@
     {
       "jobId": 6,
       "jobTitle": "Customer Service Representative",
-      "companyName": "Service Solutions",
-      "logo": "../src/assets/Logo/tesla-9 1.png",
+      "companyName": "Netflix, Inc.",
+      "logo": "../src/assets/Logo/netflix-4 1.png",
       "jobType": "Part-Time",
       "timingType": "Onsite",
       "location": "Miami, FL",
@@ -62,8 +62,8 @@
     {
       "jobId": 7,
       "jobTitle": "Human Resources Manager",
-      "companyName": "Corporate Inc.",
-      "logo": "../src/assets/Logo/tesla-9 1.png",
+      "companyName": "airBnB",
+      "logo": "../src/assets/All Images/Group 10021.png",
       "jobType": "Full-Time",
       "timingType": "Onsite",
       "location": "Dallas, TX",
@@ -72,8 +72,8 @@
     {
       "jobId": 8,
       "jobTitle": "Data Analyst",
-      "companyName": "Tech Company",
-      "logo": "../src/assets/Logo/tesla-9 1.png",
+      "companyName": "airBnB",
+      "logo": "../src/assets/All Images/Group 10021.png",
       "jobType": "Full-Time",
       "timingType": "Remote",
       "location": "San Diego, CA",
