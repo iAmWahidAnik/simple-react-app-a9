@@ -4,6 +4,16 @@ import { useLoaderData } from 'react-router-dom';
 import AppliedCard from './AppliedCard';
 
 const AppliedJobs = () => {
+    const [whichData, setWhichData] = useState('default')
+    // filter button 
+    const [isOpen, setIsOpen] = useState(false)
+
+    // onsite filters 
+    const [onsite, setOnsite] = useState([])
+
+    // remote filters 
+    const [remote, setRemote] = useState([])
+
     const allData = useLoaderData();
     const appliedDataDb = getDataFromDb();
 
@@ -15,9 +25,25 @@ const AppliedJobs = () => {
         // console.log(...appliedData)
         showAppliedData.push(...appliedData);
     }
-    // console.log(showAppliedData);
-    const [isOpen, setIsOpen] = useState(false)
 
+    const onsiteJob = () => {
+        // onsite filtering 
+        const onsiteJobs = showAppliedData.filter(data => data.timingType === 'Onsite');
+        setOnsite(onsiteJobs)
+        // console.log(onsiteJobs)
+        setWhichData('Onsite')
+    }
+
+    const remoteJob = () => {
+        // remote filtering 
+        const remoteJobs = showAppliedData.filter(data => data.timingType === 'Remote');
+        setRemote(remoteJobs)
+        // console.log(onsiteJobs)
+        setWhichData('Remote')
+    }
+
+
+    console.log(whichData)
     return (
         <div>
             <div className='text-center my-28'>
@@ -36,15 +62,21 @@ const AppliedJobs = () => {
                     </div> */}
                     {
                         isOpen && <div className='absolute text-right right-0 '>
-                            <br /> <button className='py-3 px-6 bg-gray-200 rounded-lg text-gray-900 mt-3 hover:shadow-lg font-semibold transition-all duration-300'>remote</button> <br />
-                            <button className='py-3 px-6 bg-gray-200 rounded-lg text-gray-900 mt-3 hover:shadow-lg font-semibold transition-all duration-300'>on-site</button>
+                            <br /> <button onClick={remoteJob} className='py-3 px-6 bg-gray-200 rounded-lg text-gray-900 mt-3 hover:shadow-lg font-semibold transition-all duration-300'>remote</button> <br />
+                            <button onClick={onsiteJob} className='py-3 px-6 bg-gray-200 rounded-lg text-gray-900 mt-3 hover:shadow-lg font-semibold transition-all duration-300'>on-site</button>
                         </div>
                     }
                 </div>
             </div>
             <div className='flex flex-col w-4/6 mx-auto gap-7 my-16'>
-                {
+                {/* {
                     showAppliedData.map(data => <AppliedCard key={data.jobId} data={data}></AppliedCard>)
+                } */}
+                {
+                    whichData === 'Onsite' ? onsite.map(data => <AppliedCard key={data.jobId} data={data}></AppliedCard>) : 
+                    whichData === 'Remote' ? remote.map(data => <AppliedCard key={data.jobId} data={data}></AppliedCard>) : 
+                    showAppliedData.map(data => <AppliedCard key={data.jobId} data={data}></AppliedCard>)
+                    
                 }
             </div>
         </div>
